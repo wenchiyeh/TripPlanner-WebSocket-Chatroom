@@ -1,0 +1,31 @@
+{
+	"name": "html-class-snippets-with-bootstrap4",
+	"displayName": "HTML class snippets with Bootstrap4",
+	"description": "Contains some common Bootstrap4's utilities use in html class",
+	"publisher": "Linniem",
+	"version": "0.0.4",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^0.10.5"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/htmlSnippets.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Linniem/html-class-snippets-with-bootstrap"
+	},
+	"__metadata": {
+		"id": "b1726b99-fa38-47fd-8191-48e02674e508",
+		"publisherId": "d03e63ed-19e5-42e1-b472-08006622942c",
+		"publisherDisplayName": "Linniem"
+	}
+}

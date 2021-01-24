@@ -1,0 +1,905 @@
+{
+    "Bootstrap4 template": {
+		"prefix": "Bootstrap4",
+		"body": [
+			"<!doctype html>\r",
+			"<html lang=\"en\">\r",
+			"\r",
+			"<head>\r",
+			"    <!-- Required meta tags -->\r",
+			"    <meta charset=\"utf-8\">\r",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r",
+			"\r",
+			"    <!-- Bootstrap CSS -->\r",
+			"    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"\r",
+			"        integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">\r",
+			"\r",
+			"    <title>title</title>\r",
+			"    <style>\r",
+			"        \r",
+			"    </style>\r",
+			"</head>\r",
+			"\r",
+			"<body>\r",
+			"    $0\r",
+			"\r",
+			"    <!-- Optional JavaScript -->\r",
+			"    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\r",
+			"    <script src=\"https://code.jquery.com/jquery-3.4.1.slim.min.js\"\r",
+			"        integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\"\r",
+			"        crossorigin=\"anonymous\"></script>\r",
+			"    <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\"\r",
+			"        integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\"\r",
+			"        crossorigin=\"anonymous\"></script>\r",
+			"    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js\"\r",
+			"        integrity=\"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6\"\r",
+			"        crossorigin=\"anonymous\"></script>\r",
+			"</body>\r",
+			"\r",
+			"</html>"
+		],
+		"description": "template"
+	},
+	"Bootstrap4 container": {
+		"prefix": "container",
+		"body": [
+			"<div class=\"container\">\r",
+			"    <div class=\"row\">\r",
+			"        <div class=\"col$0\"></div>\r",
+			"    </div>\r",
+			"</div>"
+		],
+		"description": "template"
+	},
+	"Bootstrap4 container with fluid": {
+		"prefix": "container-fluid",
+		"body": [
+			"<div class=\"container-fluid\">\r",
+			"    <div class=\"row\">\r",
+			"        <div class=\"col$0\"></div>\r",
+			"    </div>\r",
+			"</div>"
+		],
+		"description": "template with fluid"
+	},
+	"Bootstrap4 class:col with medium size": {
+		"prefix": "col-md-",
+		"body": [
+			"col-md-"
+		],
+		"description": ">= 768px"
+	},
+	"Bootstrap4 class:col with large size": {
+		"prefix": "col-lg-",
+		"body": [
+			"col-lg-"
+		],
+		"description": ">= 992px"
+	},
+	"Bootstrap4 class:col with extra large size": {
+		"prefix": "col-xl-",
+		"body": [
+			"col-xl-"
+		],
+		"description": ">= 1200px"
+	},
+	"Bootstrap4 class:col size 2": {
+		"prefix": "col-2",
+		"body": [
+			"col-2"
+		],
+		"description": "2/12 16.666%"
+	},
+	"Bootstrap4 class:col size 3": {
+		"prefix": "col-3",
+		"body": [
+			"col-3"
+		],
+		"description": "3/12 25%"
+	},
+	"Bootstrap4 class:col size 4": {
+		"prefix": "col-4",
+		"body": [
+			"col-4"
+		],
+		"description": "4/12 33.333%"
+	},
+	"Bootstrap4 class:col size 6": {
+		"prefix": "col-6",
+		"body": [
+			"col-6"
+		],
+		"description": "6/12 50%"
+	},
+	"Bootstrap4 class:col size 12": {
+		"prefix": "col-12",
+		"body": [
+			"col-12"
+		],
+		"description": "12/12 100%"
+	},
+	"Bootstrap4 class:no gutters": {
+		"prefix": "no-gutters",
+		"body": [
+			"no-gutters"
+		],
+		"description": "With row usually"
+	},
+	"Bootstrap4 class:order with specific position": {
+		"prefix": "order-",
+		"body": [
+			"order-"
+		],
+		"description": "0 to 12"
+	},
+	"Bootstrap4 class:order last": {
+		"prefix": "order-last",
+		"body": [
+			"order-last"
+		],
+		"description": "last position"
+	},
+	"Bootstrap4 class:order first": {
+		"prefix": "order-first",
+		"body": [
+			"order-first"
+		],
+		"description": "first position"
+	},
+	"Bootstrap4 class:add border": {
+		"prefix": "border",
+		"body": [
+			"border"
+		],
+		"description": "4 directions"
+	},
+	"Bootstrap4 class:add border top": {
+		"prefix": "border-top",
+		"body": [
+			"border-top"
+		],
+		"description": "add top"
+	},
+	"Bootstrap4 class:add border right": {
+		"prefix": "border-right",
+		"body": [
+			"border-right"
+		],
+		"description": "add right"
+	},
+	"Bootstrap4 class:add border bottom": {
+		"prefix": "border-botton",
+		"body": [
+			"border-bottom"
+		],
+		"description": "add bottom"
+	},
+	"Bootstrap4 class:add border left": {
+		"prefix": "border-left",
+		"body": [
+			"border-left"
+		],
+		"description": "add left"
+	},
+	"Bootstrap4 class:sub border all": {
+		"prefix": "border_remove-0",
+		"body": [
+			"border-0"
+		],
+		"description": "remove border"
+	},
+	"Bootstrap4 class:border without top": {
+		"prefix": "borderSub-top-0",
+		"body": [
+			"border-top-0"
+		],
+		"description": "3dir&no top"
+	},
+	"Bootstrap4 class:border without right": {
+		"prefix": "borderSub-right-0",
+		"body": [
+			"border-right-0"
+		],
+		"description": "3dir&no right"
+	},
+	"Bootstrap4 class:border without bottom": {
+		"prefix": "borderSub-bottom-0",
+		"body": [
+			"border-bottom-0"
+		],
+		"description": "3dir&no bottom"
+	},
+	"Bootstrap4 class:border without left": {
+		"prefix": "borderSub-left-0",
+		"body": [
+			"border-left-0"
+		],
+		"description": "3dir&no left"
+	},
+	"Bootstrap4 class:border color primary": {
+		"prefix": "borderC-primary-blue",
+		"body": [
+			"border-primary"
+		],
+		"description": "blue color"
+	},
+	"Bootstrap4 class:border color secondary": {
+		"prefix": "borderC-secondary-gray",
+		"body": [
+			"border-secondary"
+		],
+		"description": "gray color"
+	},
+	"Bootstrap4 class:border color success": {
+		"prefix": "borderC-success-green",
+		"body": [
+			"border-success"
+		],
+		"description": "green color"
+	},
+	"Bootstrap4 class:border color danger": {
+		"prefix": "borderC-danger-red",
+		"body": [
+			"border-danger"
+		],
+		"description": "red color"
+	},
+	"Bootstrap4 class:border color warning": {
+		"prefix": "borderC-warning-yello",
+		"body": [
+			"border-warning"
+		],
+		"description": "yello color"
+	},
+	"Bootstrap4 class:border color info": {
+		"prefix": "borderC-info-greenblue",
+		"body": [
+			"border-info"
+		],
+		"description": "greenblue color"
+	},
+	"Bootstrap4 class:border color light": {
+		"prefix": "borderC-light-lightgray",
+		"body": [
+			"border-light"
+		],
+		"description": "lightgray color"
+	},
+	"Bootstrap4 class:border color dark": {
+		"prefix": "borderC-dark-black",
+		"body": [
+			"border-dark"
+		],
+		"description": "black color"
+	},
+	"Bootstrap4 class:border color white": {
+		"prefix": "borderC-white-white",
+		"body": [
+			"border-white"
+		],
+		"description": "white color"
+	},
+	"Bootstrap4 class:border radius": {
+		"prefix": "rounded-border",
+		"body": [
+			"rounded"
+		],
+		"description": "4 corners"
+	},
+	"Bootstrap4 class:border remove radius": {
+		"prefix": "rounded_remove-0",
+		"body": [
+			"rounded-0"
+		],
+		"description": "remove rounded"
+	},
+	"Bootstrap4 class:border radius top": {
+		"prefix": "rounded-top-border",
+		"body": [
+			"rounded-top"
+		],
+		"description": "top 2 corners"
+	},
+	"Bootstrap4 class:border radius right": {
+		"prefix": "rounded-right-border",
+		"body": [
+			"rounded-right"
+		],
+		"description": "right 2 corners"
+	},
+	"Bootstrap4 class:border radius bottom": {
+		"prefix": "rounded-bottom-border",
+		"body": [
+			"rounded-bottom"
+		],
+		"description": "bottom 2 corners"
+	},
+	"Bootstrap4 class:border radius left": {
+		"prefix": "rounded-left-border",
+		"body": [
+			"rounded-left"
+		],
+		"description": "left 2 corners"
+	},
+	"Bootstrap4 class:border radius circle": {
+		"prefix": "rounded_circle",
+		"body": [
+			"rounded-circle"
+		],
+		"description": "circle border"
+	},
+	"Bootstrap4 class:border radius pill": {
+		"prefix": "rounded_pill",
+		"body": [
+			"rounded-pill"
+		],
+		"description": "pill border"
+	},
+	"Bootstrap4 class:text color blue": {
+		"prefix": "textC-primary-blue",
+		"body": [
+			"text-primary"
+		],
+		"description": "blue color"
+	},
+	"Bootstrap4 class:text color gray": {
+		"prefix": "textC-secondary-gray",
+		"body": [
+			"text-secondary"
+		],
+		"description": "gray color"
+	},
+	"Bootstrap4 class:text color green": {
+		"prefix": "textC-success-green",
+		"body": [
+			"text-success"
+		],
+		"description": "green color"
+	},
+	"Bootstrap4 class:text color red": {
+		"prefix": "textC-danger-red",
+		"body": [
+			"text-danger"
+		],
+		"description": "red color"
+	},
+	"Bootstrap4 class:text color yellow": {
+		"prefix": "textC-warning-yellow",
+		"body": [
+			"text-warning"
+		],
+		"description": "yellow color"
+	},
+	"Bootstrap4 class:text color greenblue": {
+		"prefix": "textC-info-greenblue",
+		"body": [
+			"text-info"
+		],
+		"description": "greenblue color"
+	},
+	"Bootstrap4 class:text color lightwhite": {
+		"prefix": "textC-light-lightwhite",
+		"body": [
+			"text-light"
+		],
+		"description": "lightwhite color"
+	},
+	"Bootstrap4 class:text color dark": {
+		"prefix": "textC-dark",
+		"body": [
+			"text-dark"
+		],
+		"description": "dark color"
+	},
+	"Bootstrap4 class:text color black": {
+		"prefix": "textC-body-black",
+		"body": [
+			"text-body"
+		],
+		"description": "black color"
+	},
+	"Bootstrap4 class:text color lightgray": {
+		"prefix": "textC-muted-lightgray",
+		"body": [
+			"text-muted"
+		],
+		"description": "lightgray color"
+	},
+	"Bootstrap4 class:text color white": {
+		"prefix": "textC-white-white",
+		"body": [
+			"text-white"
+		],
+		"description": "white color"
+	},
+	"Bootstrap4 class:text color a50 white": {
+		"prefix": "textC-black-a50",
+		"body": [
+			"text-black-50"
+		],
+		"description": "opacity 0.5"
+	},
+	"Bootstrap4 class:text color a50 black": {
+		"prefix": "textC-white-a50",
+		"body": [
+			"text-white-50"
+		],
+		"description": "opacity 0.5"
+	},
+	"Bootstrap4 class:aligned text left": {
+		"prefix": "text-left",
+		"body": [
+			"text-left"
+		],
+		"description": "align left"
+	},
+	"Bootstrap4 class:aligned text center": {
+		"prefix": "text-center",
+		"body": [
+			"text-center"
+		],
+		"description": "align center"
+	},
+	"Bootstrap4 class:aligned text right": {
+		"prefix": "text-right",
+		"body": [
+			"text-right"
+		],
+		"description": "align right"
+	},
+	"Bootstrap4 class:text case lower": {
+		"prefix": "text_lowercase",
+		"body": [
+			"text-lowercase"
+		],
+		"description": "lower case"
+	},
+	"Bootstrap4 class:text case upper": {
+		"prefix": "text_uppercase",
+		"body": [
+			"text-uppercase"
+		],
+		"description": "upper case"
+	},
+	"Bootstrap4 class:text capitalize": {
+		"prefix": "text_capitalize",
+		"body": [
+			"text-capitalize"
+		],
+		"description": "capitalize"
+	},
+	"Bootstrap4 class:display none": {
+		"prefix": "display-none",
+		"body": [
+			"d-none"
+		],
+		"description": "d-none"
+	},
+	"Bootstrap4 class:display inline": {
+		"prefix": "display-inline",
+		"body": [
+			"d-inline"
+		],
+		"description": "d-inline"
+	},
+	"Bootstrap4 class:display inline-block": {
+		"prefix": "display-inline-block",
+		"body": [
+			"d-inline-block"
+		],
+		"description": "d-inline-block"
+	},
+	"Bootstrap4 class:display block": {
+		"prefix": "display-block",
+		"body": [
+			"d-block"
+		],
+		"description": "d-block"
+	},
+	"Bootstrap4 class:display flex": {
+		"prefix": "display-flex",
+		"body": [
+			"d-flex"
+		],
+		"description": "d-flex"
+	},
+	"Bootstrap4 class:display inline-flex": {
+		"prefix": "display-inline-flex",
+		"body": [
+			"d-inline-flex"
+		],
+		"description": "d-inline-flex"
+	},
+	"Bootstrap4 class:overflow auto": {
+		"prefix": "overflow-auto",
+		"body": [
+			"overflow-auto"
+		],
+		"description": "add scrollbar"
+	},
+	"Bootstrap4 class:overflow hidden": {
+		"prefix": "overflow-hidden",
+		"body": [
+			"overflow-hidden"
+		],
+		"description": "hide overflow"
+	},
+	"Bootstrap4 class:visible": {
+		"prefix": "visible",
+		"body": [
+			"set visible"
+		],
+		"description": "set visible(default)"
+	},
+	"Bootstrap4 class:invisible": {
+		"prefix": "invisible-visible-no",
+		"body": [
+			"invisible"
+		],
+		"description": "set invisible"
+	},
+	"Bootstrap4 class:width 100per": {
+		"prefix": "w-100-width:100%",
+		"body": [
+			"w-100"
+		],
+		"description": "width=100%"
+	},
+	"Bootstrap4 class:width 75per": {
+		"prefix": "w-75-width:75%",
+		"body": [
+			"w-75"
+		],
+		"description": "width=75%"
+	},
+	"Bootstrap4 class:width 50per": {
+		"prefix": "w-50-width:50%",
+		"body": [
+			"w-50"
+		],
+		"description": "width=50%"
+	},
+	"Bootstrap4 class:width 25per": {
+		"prefix": "w-25-width:25%",
+		"body": [
+			"w-25"
+		],
+		"description": "width=25%"
+	},
+	"Bootstrap4 class:shadow none": {
+		"prefix": "shadow_none",
+		"body": [
+			"shadow-none"
+		],
+		"description": "no shadow"
+	},
+	"Bootstrap4 class:shadow sm": {
+		"prefix": "shadow-sm",
+		"body": [
+			"shadow-sm"
+		],
+		"description": "small shadow"
+	},
+	"Bootstrap4 class:shadow lg": {
+		"prefix": "shadow-lg",
+		"body": [
+			"shadow-lg"
+		],
+		"description": "large shadow"
+	},
+	"Bootstrap4 class:shadow nm": {
+		"prefix": "shadow",
+		"body": [
+			"shadow"
+		],
+		"description": "default shadow"
+	},
+	"Bootstrap4 class:position static": {
+		"prefix": "position-static",
+		"body": [
+			"position-static"
+		],
+		"description": "static"
+	},
+	"Bootstrap4 class:position relative": {
+		"prefix": "position-relative",
+		"body": [
+			"position-relative"
+		],
+		"description": "relative"
+	},
+	"Bootstrap4 class:position absolute": {
+		"prefix": "position-absolute",
+		"body": [
+			"position-absolute"
+		],
+		"description": "absolute"
+	},
+	"Bootstrap4 class:position fixed": {
+		"prefix": "position-fixed",
+		"body": [
+			"position-fixed"
+		],
+		"description": "fixed"
+	},
+	"Bootstrap4 class:position sticky": {
+		"prefix": "position-sticky",
+		"body": [
+			"position-sticky"
+		],
+		"description": "sticky"
+	},
+	"Bootstrap4 class:font weight bold": {
+		"prefix": "font-weight-bold",
+		"body": [
+			"font-weight-bold"
+		],
+		"description": "bold font"
+	},
+	"Bootstrap4 class:font weight bolder": {
+		"prefix": "font-weight-bolder",
+		"body": [
+			"font-weight-bolder"
+		],
+		"description": "bolder font"
+	},
+	"Bootstrap4 class:font weight normal": {
+		"prefix": "font-weight-normal",
+		"body": [
+			"font-weight-normal"
+		],
+		"description": "normal font"
+	},
+	"Bootstrap4 class:font weight light": {
+		"prefix": "font-weight-light",
+		"body": [
+			"font-weight-light"
+		],
+		"description": "light font"
+	},
+	"Bootstrap4 class:font weight lighter": {
+		"prefix": "font-weight-lighter",
+		"body": [
+			"font-weight-lighter"
+		],
+		"description": "lighter font"
+	},
+	"Bootstrap4 class:font italic": {
+		"prefix": "font-italic",
+		"body": [
+			"font-italic"
+		],
+		"description": "italic font"
+	},
+	"Bootstrap4 class:text decoration none": {
+		"prefix": "text_decoration-none",
+		"body": [
+			"text-decoration-none"
+		],
+		"description": "decoration none"
+	},
+	"Bootstrap4 class:flex wrap": {
+		"prefix": "flex-wrap",
+		"body": [
+			"flex-wrap"
+		],
+		"description": "wrap"
+	},
+	"Bootstrap4 class:flex wrap-reverse": {
+		"prefix": "flex-wrap-reverse",
+		"body": [
+			"flex-wrap-reverse"
+		],
+		"description": "wrap reverse"
+	},
+	"Bootstrap4 class:flex no wrap": {
+		"prefix": "flex-wrap-no",
+		"body": [
+			"flex-no-wrap"
+		],
+		"description": "no-wrap"
+	},
+	"Bootstrap4 class:flex direction row": {
+		"prefix": "flex-dir-row",
+		"body": [
+			"flex-row"
+		],
+		"description": "row"
+	},
+	"Bootstrap4 class:flex direction row-reverse": {
+		"prefix": "flex-dir-row-R",
+		"body": [
+			"flex-row-reverse"
+		],
+		"description": "row-reverse"
+	},
+	"Bootstrap4 class:flex direction column": {
+		"prefix": "flex-dir-col",
+		"body": [
+			"flex-column"
+		],
+		"description": "column"
+	},
+	"Bootstrap4 class:flex direction column-reverse": {
+		"prefix": "flex-dir-col-R",
+		"body": [
+			"flex-column-reverse"
+		],
+		"description": "column-reverse"
+	},
+	"Bootstrap4 class:background color primary": {
+		"prefix": "bgc-primary-blue",
+		"body": [
+			"bg-primary"
+		],
+		"description": "blue bgc"
+	},
+	"Bootstrap4 class:background color secondary": {
+		"prefix": "bgc-secondary-gray",
+		"body": [
+			"bg-secondary"
+		],
+		"description": "gray bgc"
+	},
+	"Bootstrap4 class:background color success": {
+		"prefix": "bgc-success-green",
+		"body": [
+			"bg-success"
+		],
+		"description": "green bgc"
+	},
+	"Bootstrap4 class:background color danger": {
+		"prefix": "bgc-danger-red",
+		"body": [
+			"bg-danger"
+		],
+		"description": "red bgc"
+	},
+	"Bootstrap4 class:background color warning": {
+		"prefix": "bgc-warning-yellow",
+		"body": [
+			"bg-warning"
+		],
+		"description": "yellow bgc"
+	},
+	"Bootstrap4 class:background color info": {
+		"prefix": "bgc-info-greenblue",
+		"body": [
+			"bg-info"
+		],
+		"description": "greenblue bgc"
+	},
+	"Bootstrap4 class:background color light": {
+		"prefix": "bgc-light-lightgray",
+		"body": [
+			"bg-light"
+		],
+		"description": "lightgray bgc"
+	},
+	"Bootstrap4 class:background color dark": {
+		"prefix": "bgc-dark",
+		"body": [
+			"bg-dark"
+		],
+		"description": "dark bgc"
+	},
+	"Bootstrap4 class:background color white": {
+		"prefix": "bgc-white-white",
+		"body": [
+			"bg-white"
+		],
+		"description": "white bgc"
+	},
+	"Bootstrap4 class:background color transparent": {
+		"prefix": "bgc-transparent",
+		"body": [
+			"bg-transparent"
+		],
+		"description": "transparent bgc"
+	},
+	"Bootstrap4 class:justify-content start": {
+		"prefix": "justify-content-start",
+		"body": [
+			"justify-content-start"
+		],
+		"description": "start"
+	},
+	"Bootstrap4 class:justify-content center": {
+		"prefix": "justify-content-center",
+		"body": [
+			"justify-content-center"
+		],
+		"description": "center"
+	},
+	"Bootstrap4 class:justify-content end": {
+		"prefix": "justify-content-end",
+		"body": [
+			"justify-content-end"
+		],
+		"description": "end"
+	},
+	"Bootstrap4 class:justify-content around": {
+		"prefix": "justify-content-around",
+		"body": [
+			"justify-content-around"
+		],
+		"description": "around"
+	},
+	"Bootstrap4 class:justify-content between": {
+		"prefix": "justify-content-between",
+		"body": [
+			"justify-content-between"
+		],
+		"description": "between"
+	},
+	"Bootstrap4 class:align-items start": {
+		"prefix": "align-items-start",
+		"body": [
+			"align-items-start"
+		],
+		"description": "start"
+	},
+	"Bootstrap4 class:align-items center": {
+		"prefix": "align-items-center",
+		"body": [
+			"align-items-center"
+		],
+		"description": "center"
+	},
+	"Bootstrap4 class:align-items end": {
+		"prefix": "align-items-end",
+		"body": [
+			"align-items-end"
+		],
+		"description": "end"
+	},
+	"Bootstrap4 class:align-content start": {
+		"prefix": "align-content-start",
+		"body": [
+			"align-content-start"
+		],
+		"description": "start"
+	},
+	"Bootstrap4 class:align-content end": {
+		"prefix": "align-content-end",
+		"body": [
+			"align-content-end"
+		],
+		"description": "end"
+	},
+	"Bootstrap4 class:align-content center": {
+		"prefix": "align-content-center",
+		"body": [
+			"align-content-center"
+		],
+		"description": "center"
+	},
+	"Bootstrap4 class:align-content around": {
+		"prefix": "align-content-around",
+		"body": [
+			"align-content-around"
+		],
+		"description": "around"
+	},
+	"Bootstrap4 class:align-self start": {
+		"prefix": "align-self-start",
+		"body": [
+			"align-self-start"
+		],
+		"description": "start"
+	},
+	"Bootstrap4 class:align-self end": {
+		"prefix": "align-self-end",
+		"body": [
+			"align-self-end"
+		],
+		"description": "end"
+	},
+	"Bootstrap4 class:align-self center": {
+		"prefix": "align-self-center",
+		"body": [
+			"align-self-center"
+		],
+		"description": "center"
+	}
+}

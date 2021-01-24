@@ -1,0 +1,13 @@
+[user]
+	name = WenChiYeh
+	email = gsn955431@gmail.com
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

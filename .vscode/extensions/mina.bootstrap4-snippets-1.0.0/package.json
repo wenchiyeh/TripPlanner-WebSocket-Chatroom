@@ -1,0 +1,35 @@
+{
+	"name": "bootstrap4-snippets",
+	"displayName": "Bootstrap4 Snippets",
+	"description": "This extension helps people write standard bootstrap templates",
+	"version": "1.0.0",
+	"icon": "icon.png",
+	"publisher": "Mina",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/minkir014/First_Vscode_Extension.git"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "654f8601-60b3-4c6e-b01d-c7baa697dfa5",
+		"publisherId": "8300ce41-748e-423b-8eac-e0326129fb1b",
+		"publisherDisplayName": "Mina"
+	}
+}
