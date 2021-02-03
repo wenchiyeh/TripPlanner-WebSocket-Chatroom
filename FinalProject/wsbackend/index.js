@@ -10,7 +10,7 @@ wss.on("connection",ws=>{
         const data =JSON.parse(message)
         clients.forEach(client=>client.send(JSON.stringify(data)))
     })
-    // ws.on("close",()=>{
-    //     console.log("disconnected")
-    // })
+    ws.on("close",()=>{
+        console.log("disconnected")
+    })
 })
